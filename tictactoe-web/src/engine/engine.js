@@ -87,3 +87,14 @@ const diagonalCheckBackward = (board) => {
         return true;
     }
 }
+
+
+const alphaBetaMiniMax = (board, depth, alpha, beta, turn) => {
+    if(isGameOver(board)[0] && (turn - 1) === 1){
+        return +100 ;
+    }
+
+
+}
+
+console.log(alphaBetaMiniMax);
